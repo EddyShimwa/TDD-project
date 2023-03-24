@@ -1,4 +1,4 @@
-`AllCops:
+AllCops:
   NewCops: enable
   Exclude:
     - "Guardfile"
@@ -10,18 +10,20 @@
 Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
-  Max: 20
+  Max: 50
 Metrics/AbcSize:
   Max: 50
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
   IgnoredMethods: ['describe']
+  enabled: false
   Max: 30
-
+Metrics/CyclomaticComplexity:
+  Max: 10
 
 Style/Documentation:
-  Enabled: false
+  Enabled: true
 Style/ClassAndModuleChildren:
   Enabled: false
 Style/EachForSimpleLoop:
@@ -50,3 +52,4 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
+
