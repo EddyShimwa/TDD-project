@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Metrics/BlockLength
 RSpec.describe Solver do
   let(:solver) { Solver.new }
 
@@ -57,4 +54,3 @@ RSpec.describe Solver do
     end
   end
 end
-# rubocop:enable Metrics/BlockLength

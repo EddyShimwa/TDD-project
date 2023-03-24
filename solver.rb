@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-
-# This class provides methods to solve various mathematical and string manipulation problems.
 class Solver
   def factorial(number)
     raise ArgumentError, 'Input should not be a negative number!' unless number.is_a?(Integer) && number >= 0
